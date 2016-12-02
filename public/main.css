@@ -1,0 +1,16 @@
+body {
+	text-align: center;
+	font-family: 'Nixie One', cursive;
+}
+
+img{
+	width: 25%;
+}
+
+.title {
+	text-shadow: -1px -1px 8px #b61f24, 
+				1px -1px 8px #b61f24, 
+				-1px 1px 8px #b61f24,
+	 			1px 1px 8px #b61f24;
+	 font-weight: bold;
+}
