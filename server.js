@@ -47,7 +47,7 @@ app.get('/api/objects', function (req, res) {
   res.send(objects);
 });
 
-var server = app.listen(3000, function () {
+var server = app.listen(process.env.port || 3000, function () {
   var port = server.address().port;
   console.log('Example app listening at http://localhost:%s', port);
 });
