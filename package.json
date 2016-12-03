@@ -1,0 +1,20 @@
+{
+  "name": "lab_22",
+  "version": "1.0.0",
+  "description": "ornament node project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bergstromcbb/lab_22.git"
+  },
+  "author": "Christina Bergstrom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bergstromcbb/lab_22/issues"
+  },
+  "homepage": "https://github.com/bergstromcbb/lab_22#readme"
+}

@@ -15,6 +15,8 @@ var picture = "";
 		picture = data;
 	});  
 
+$("#pic").animate({opacity: 1.0,}, 4000);
+
 setInterval(function(){
 	
 
@@ -31,9 +33,11 @@ setInterval(function(){
 	});  	
 
 
-	$("#container").html('<div class="listing">' 
-		+ '<img class="pic" src="' + picture +'"/>'
+	$("#container").html(
+		'<img id="pic" src="' + picture +'"/>'
 		+ '<p class="title">' + saying + '</p>' 
-		+ '</div>');
-	$("#pic").animate({opacity: 0.6})
-}, 5000); 
+		);
+
+	$("#pic").animate({opacity: 1.0,}, 4000)
+
+}, 4000); 
